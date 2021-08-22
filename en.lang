@@ -8,7 +8,7 @@ ui.loading=Loading...
 ui.logout=Log out
 
 landing.title=Welcome!
-landing.clickBelow=Welcome %player! click anywhere on this page to activate your session
+landing.clickBelow=Welcome %player! click anywhere on this page to activate your Jukebox <i>(audio session)<i/>
 landing.connectButton=Click anywhere to connect
 
 main.title=Welcome back,
@@ -20,7 +20,7 @@ kicked.title=Lost connection
 kicked.message=The audio client is only available for players who are online in the server.<br/>Use <small><b>/audio</b></small> to obtain a URL
 
 badlogin.title=Are you lost?
-badlogin.content=The audio client is only available for players who are online in the server.<br/>Use <small><b>/audio</b></small> to obtain a URL
+badlogin.content=The audio client is only available for players who are online in the server.<br/>Use <small><b>/audio</b></small> to obtain a URL and connect! <i>(this session is no longer valid and can't be used any further)<i/>
 
 vc.notice=Notice
 vc.startingPopupTitle=Logging into voice chat...
@@ -46,7 +46,7 @@ vc.auto=Automatic adjustments
 vc.selectMic=Select your microphone
 vc.people=People within
 vc.voiceRange=Voice Range
-vc.empty=There is no one around sadly.. Not to worry though! I'll be your happy imaginary friend
+vc.empty=There is no one around sadly.. Perhaps because nobody uses this feature at all! :')
 
 hue.hue=Philips Hue
 hue.link=Click here to connect to your hue bridge
