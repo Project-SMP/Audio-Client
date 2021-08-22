@@ -48,8 +48,8 @@
         .loader {
             border-color: rgba(0, 0, 0, 0);
             border-top-color: #8ed2ff;
-            -webkit-animation: spinner 3s linear infinite;
-            animation: spinner 3s linear infinite;
+            -webkit-animation: spinner 1s linear infinite;
+            animation: spinner 1s linear infinite;
         }
 
         @-webkit-keyframes spinner {
@@ -98,10 +98,12 @@
                         <p class="w-80 text-center text-sm mb-8 text-white tracking-wide cursor-pointer">
                             Looks like your link is invalid! Use <b>/audio</b> in the game
                             or type in the token you have! <i>(if you have one ofc)</i>
+                            
                         </p>
                     </div>
                     <div class="space-y-4">
                         <input type="text" id="login-token" placeholder="Token" class="input input-bordered w-full"/>
+                        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
                         <style>
                             .minecraft-btn {
                                 margin-top: 20px;
